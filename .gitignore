@@ -2,7 +2,12 @@
 vendor/
 config/development.config.php
 data/cache/*
+data/cache/DoctrineORMModule/*
+data/cache/DoctrineORMModule/Proxy/*
 !data/cache/.gitkeep
+!data/cache/DoctrineORMModule
+!data/cache/DoctrineORMModule/Proxy
+!data/cache/DoctrineORMModule/Proxy/.gitkeep
 phpunit.xml
 composer.lock
 .phpunit.result.cache

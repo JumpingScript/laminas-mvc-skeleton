@@ -54,4 +54,9 @@ return [
             __DIR__ . '/../view',
         ],
     ],
+    'service_manager' => [
+        'factories' => [
+            \Application\Service\DoctrineMigrationVersionComparatorWithoutNamespace::class => InvokableFactory::class
+        ]
+    ],
 ];
